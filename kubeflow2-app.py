@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
 
 from statsmodels.tsa.arima.model import ARIMA
 
@@ -208,4 +207,5 @@ st.markdown(
 st.caption(
     "Kubeflow Electrification Project | Streamlit Dashboard | AI-assisted planning"
 )
+
 
